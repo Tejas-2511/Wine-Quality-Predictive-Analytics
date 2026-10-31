@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1,ROC_AUC,CV_F1 (Train),CV_ROC_AUC (Train)
+Baseline (Majority Class),0.864,0.0,0.0,0.0,0.5,0.0,0.5
+Logistic Regression,0.875,0.6,0.2432,0.3462,0.886,0.3721,0.8534
+Linear Discriminant Analysis (LDA),0.8897,0.6667,0.3784,0.4828,0.8855,0.4259,0.8637
+Quadratic Discriminant Analysis (QDA),0.8529,0.4615,0.4865,0.4737,0.8094,0.4456,0.813

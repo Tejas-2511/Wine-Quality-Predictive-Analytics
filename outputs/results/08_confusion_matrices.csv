@@ -1,0 +1,5 @@
+,TN,FP,FN,TP
+Baseline (Majority Class),235,0,37,0
+Logistic Regression,229,6,28,9
+Linear Discriminant Analysis (LDA),228,7,23,14
+Quadratic Discriminant Analysis (QDA),214,21,19,18

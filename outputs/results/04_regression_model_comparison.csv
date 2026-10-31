@@ -1,0 +1,5 @@
+Model,Train_MAE,Train_RMSE,Train_R2,Test_MAE,Test_RMSE,Test_R2
+Baseline (Mean),0.6909,0.8181,0.0,0.7049,0.8443,-0.0063
+Simple Linear Regression (Alcohol),0.5678,0.7196,0.2262,0.5675,0.7327,0.2421
+Multiple Linear Regression,0.5107,0.6585,0.352,0.5041,0.6565,0.3915
+Ridge Regression (L2 Regularized),0.5107,0.6585,0.352,0.5041,0.6564,0.3918

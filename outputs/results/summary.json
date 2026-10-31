@@ -1,0 +1,99 @@
+{
+  "health_check": {
+    "Total Rows": 1599,
+    "Total Columns": 12,
+    "Missing Values Total": 0,
+    "Duplicate Rows": 240
+  },
+  "cleaning_log": {
+    "rows_before": 1599,
+    "missing_before": 0,
+    "duplicates_removed": 240,
+    "rows_after": 1359
+  },
+  "top_correlations": {
+    "alcohol": 0.4803,
+    "volatile acidity": -0.3952,
+    "sulphates": 0.2488,
+    "citric acid": 0.2281,
+    "density": -0.1843,
+    "total sulfur dioxide": -0.1779,
+    "chlorides": -0.131,
+    "fixed acidity": 0.119,
+    "pH": -0.0552,
+    "free sulfur dioxide": -0.0505,
+    "residual sugar": 0.0136
+  },
+  "regression_results": {
+    "Baseline (Mean)": {
+      "Train_MAE": 0.6909,
+      "Train_RMSE": 0.8181,
+      "Train_R2": 0.0,
+      "Test_MAE": 0.7049,
+      "Test_RMSE": 0.8443,
+      "Test_R2": -0.0063
+    },
+    "Simple Linear Regression (Alcohol)": {
+      "Train_MAE": 0.5678,
+      "Train_RMSE": 0.7196,
+      "Train_R2": 0.2262,
+      "Test_MAE": 0.5675,
+      "Test_RMSE": 0.7327,
+      "Test_R2": 0.2421
+    },
+    "Multiple Linear Regression": {
+      "Train_MAE": 0.5107,
+      "Train_RMSE": 0.6585,
+      "Train_R2": 0.352,
+      "Test_MAE": 0.5041,
+      "Test_RMSE": 0.6565,
+      "Test_R2": 0.3915
+    },
+    "Ridge Regression (L2 Regularized)": {
+      "Train_MAE": 0.5107,
+      "Train_RMSE": 0.6585,
+      "Train_R2": 0.352,
+      "Test_MAE": 0.5041,
+      "Test_RMSE": 0.6564,
+      "Test_R2": 0.3918
+    }
+  },
+  "classification_results": {
+    "Baseline (Majority Class)": {
+      "Accuracy": 0.864,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0,
+      "ROC_AUC": 0.5,
+      "CV_F1 (Train)": 0.0,
+      "CV_ROC_AUC (Train)": 0.5
+    },
+    "Logistic Regression": {
+      "Accuracy": 0.875,
+      "Precision": 0.6,
+      "Recall": 0.2432,
+      "F1": 0.3462,
+      "ROC_AUC": 0.886,
+      "CV_F1 (Train)": 0.3721,
+      "CV_ROC_AUC (Train)": 0.8534
+    },
+    "Linear Discriminant Analysis (LDA)": {
+      "Accuracy": 0.8897,
+      "Precision": 0.6667,
+      "Recall": 0.3784,
+      "F1": 0.4828,
+      "ROC_AUC": 0.8855,
+      "CV_F1 (Train)": 0.4259,
+      "CV_ROC_AUC (Train)": 0.8637
+    },
+    "Quadratic Discriminant Analysis (QDA)": {
+      "Accuracy": 0.8529,
+      "Precision": 0.4615,
+      "Recall": 0.4865,
+      "F1": 0.4737,
+      "ROC_AUC": 0.8094,
+      "CV_F1 (Train)": 0.4456,
+      "CV_ROC_AUC (Train)": 0.813
+    }
+  }
+}
