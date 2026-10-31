@@ -25,7 +25,7 @@ Using the benchmark **UCI Wine Quality Dataset** (Cortez et al., 2009), this pro
 
 ```
 Wine_Quality_Predictive_Analytics/
-??? data/
+data/
 ?   ??? winequality-red.csv            # Official UCI dataset (semicolon-separated)
 ?   ??? winequality-white.csv          # Official UCI dataset
 ??? notebooks/
@@ -97,5 +97,5 @@ jupyter notebook notebooks/wine_quality_analysis.ipynb
 ---
 
 ## Documentation
-- Detailed report: [docs/PROJECT_REPORT.md](docs/PROJECT_REPORT.md)
-- Viva preparation questions & answers: [docs/VIVA_QA.md](docs/VIVA_QA.md)
+- Detailed report: [PROJECT_REPORT.md](PROJECT_REPORT.md)
+
